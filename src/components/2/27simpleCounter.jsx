@@ -5,10 +5,10 @@ class Counter extends React.Component {
         count: 0
       };
       // Change code below this line
-      const keys = Object.keys(this).filter(k=>this[k] && {}.toString.call(this[k])=== '[object Function]')
-      keys.forEach(k =>{
+      ['increment','decrement','reset'].forEach(k=>{
           this[k] = this[k].bind(this);
       })
+
       // Change code above this line
     }
     // Change code below this line
