@@ -12,4 +12,4 @@ const JSX = <div>
     </ul>
 </div>
 
-export default JSX
+export default JSX;
